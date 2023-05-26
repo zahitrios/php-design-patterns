@@ -1,6 +1,6 @@
 # PHP Design Patterns
 
-These examples was done with php 8, if you need to test it in previous versions, you need to change the constructs from this:
+These examples were done with php 8, if you need to test it in previous versions, you will need to change the constructs from this:
 
 ```
 public function __construct(private $state = 'Sunny')
