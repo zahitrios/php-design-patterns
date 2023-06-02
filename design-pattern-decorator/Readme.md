@@ -7,3 +7,19 @@ Imagine that you have an instance Enemy and that enemy has a behavior with glove
 Wit strategy you can solve this, but is almost the same that we wrote above, for each combination of items you will need an strategy
 
 Instead of Adapter whom change the object interface (behavior), decorator enhance the object without changing the interface
+
+```
+php index.php 
+Koopa Attacking!!
+100
+
+Enemy with helmet doesn't has enhance attack
+Koopa Attacking!!
+100
+
+Enemy with sword attacking!!
+200
+
+Enemy with sword attacking!!
+200
+```
