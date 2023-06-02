@@ -8,8 +8,8 @@ Wit strategy you can solve this, but is almost the same that we wrote above, for
 
 Instead of Adapter whom change the object interface (behavior), decorator enhance the object without changing the interface
 
+Execution output (php index.php);
 ```
-php index.php 
 Koopa Attacking!!
 100
 
