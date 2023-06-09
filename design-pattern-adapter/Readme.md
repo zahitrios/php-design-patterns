@@ -25,3 +25,17 @@ Si quisieramos hacer que nuestra aplicación siguiera cargando este nuevo tipo d
 Lo importante de este patrón, es que la aplicación no hace uso del método chargeBattery porque a partir de ahora no todos los teléfonos tienen ese método, en su lugar, hace uso de la clase Service, y es esta clase la que interactua con los objetos concretos.
 
 En conclusión, la aplicación y la clase Service no se verán modificadas cuando deseemos agregar un nuevo tipo de teléfono, simplemente tendremos que crear más clases Adapater que implementen la intefaz principal Mobile.
+
+---
+
+## Result
+
+```
+iPhone battery level: 50
+Your mobile is charging!!
+iPhone battery level: 100
+
+weird phone battery level: 36
+Your mobile is charging!!
+weird phone battery level: 100
+```
