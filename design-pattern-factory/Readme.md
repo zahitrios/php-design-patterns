@@ -19,7 +19,7 @@ If we wanted to modify the behavior of enemy creation, all we would have to do i
 
 ---
 
-Este objeto encapsula la lógica de la creación de objetos, en este caso ejemplo necesitamos una fábrica de enemigos para un videojuego, necesitamos que la aplicación sea capaz de entregarnos enemigos de forma aleatoria y quizá más adelante modificar el comportamiento de la creación de enemigos, si toda está lógica estuviera dentro del archivo principal Game, tendríamos que escribir algo como:
+Este objeto encapsula la lógica de la creación de objetos, en este ejemplo necesitamos una fábrica de enemigos para un videojuego, necesitamos que la aplicación sea capaz de entregarnos enemigos de forma aleatoria y quizá más adelante modificar el comportamiento de la creación de enemigos, si toda está lógica estuviera dentro del archivo principal Game, tendríamos que escribir algo como:
 
 ```
 $enemy = (rand()%2 == 0) ? new Goomba : new Koopa;
