@@ -7,7 +7,7 @@ class Koopa implements Entity{
     const DAMAGE = 10;
 
     public function attack(): void{
-        echo "atacando con poder ".self::DAMAGE."!!\n";
+        echo "I'm a Koppa, attacking with damage: ".self::DAMAGE."!!\n";
     }
 
 }

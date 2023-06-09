@@ -7,7 +7,7 @@ class Goomba implements Entity{
     const DAMAGE = 5;
 
     public function attack(): void{
-        echo "atacando con poder ".self::DAMAGE."!!\n";
+        echo "I'm a Goomba, attacking with power: ".self::DAMAGE."!!\n";
     }
 
 }

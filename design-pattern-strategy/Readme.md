@@ -1,7 +1,27 @@
 # Strategy design pattern
 
-The goal is to have different encapsulated algorithms and logics to change the behavior between one logic and another. The function that uses the objects or interfaces remains unchanged.
+The objective is to encapsulate different algorithms and logics to modify behavior through different strategies, while keeping the function that uses the object or interfaces unchanged.
 
-This is a battle example of pokemon game.
+This example illustrates the scenario of a Pokémon battle.
 
-On this example, the executeAttack funcion receives myAttack and foeAttack which are two different strategies to attack.
+In this particular case, the 'executeAttack' function is able to receive 'myAttack' and 'foeAttack' as two separate strategies.
+
+---
+
+El objetivo es encapsular distintos algoritmos y logicas para modificar el comportamiento a través de diferentes estrategias, mientras que mantenemos la función que utiliza al objeto o interfaces sin cambios.
+
+En este ejemplo se ilustra el escenario de una batalla de Pokémon
+
+En este caso particular, la función 'executeAttack' es capaz de recibir 'myAttack' y 'foeAttack' como dos estrategias separadas
+
+---
+
+## Result
+
+```
+Sunny
+Raining
+Snowing
+Snowing
+Sky is dark
+```
